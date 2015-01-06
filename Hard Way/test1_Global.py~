@@ -1,0 +1,8 @@
+def bob():
+    #global me
+    me = "locally defined"   # Defined locally but declared as global
+    print me
+    #return me
+
+bob()
+print "%s" % bob()

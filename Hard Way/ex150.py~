@@ -1,0 +1,8 @@
+from sys import argv
+
+script, filename = argv
+
+txt = open(filname)
+
+print "It's your file %s:" % filename
+print txt.read()
